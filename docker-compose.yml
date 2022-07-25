@@ -1,0 +1,10 @@
+version: "3.5"
+
+services:
+  rjchecker:
+    build:
+      context: ./
+    image: rjchecker
+    restart: unless-stopped
+    ports:
+      - "5000:5000"

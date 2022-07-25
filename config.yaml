@@ -1,16 +1,16 @@
 # Train details
-date: "2022-10-01"
-time: "00:09"
-from: "49584000" # Vrutky
-to: "10202003" # Praha
+date: "2022-07-26"
+time: "08:00"
+from: "17904003" # Liberec
+to: "10202003" # Praha, Černý Most
 
 # Tickets details
-preffered_class: C1
-tariff: 
+preffered_class: False
+tariff:
   - REGULAR
   - CZECH_STUDENT_PASS_26
   - ISIC
   - ISIC
 
 # Notify.run details
-notify_code: <code>
+notify_code: O9HTEuc7wKDKoRWYDFYt

@@ -1,0 +1,28 @@
+{
+  "name": "regiojet-checker",
+  "description": "Jednoducha terminalova aplikacia umoznujuca odchyt [Regiojet.cz](https://regiojet.cz/) listkov v pripade, ze uz su vypredane. Vyuziva sluzbu [notify.run](https://notify.run/), vdaka ktorej je mozne dostavat upozornenia z aplikacie na niekolkych zariadeniach zaroven - staci, ze podporuju PUSH notifikacie (tj. mobily, tablety, pocitace).",
+  "version": "1.0.0",
+  "main": "rjchecker.py",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "npx prettier --write .",
+    "start": "py rjchecker.py"
+  },
+  "pre-commit": [
+    "format"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/choutkamartin/regiojet-checker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/choutkamartin/regiojet-checker/issues"
+  },
+  "homepage": "https://github.com/choutkamartin/regiojet-checker#readme",
+  "devDependencies": {
+    "pre-commit": "^1.2.2",
+    "prettier": "2.7.1"
+  }
+}
