@@ -1,5 +1,5 @@
 .PHONY: build
-buildd: ## Build the docker image.
+build: ## Build the docker image.
 	docker compose -f ./docker-compose.yml build
 
 .PHONY: start
