@@ -27,6 +27,7 @@ def start(api):
             sleep(500)
         # Tickets not available
         else:
+            print(datetime.now(), "Tickets not available, trying again in 20 seconds.")
             sleep(20)
 
 
